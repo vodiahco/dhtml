@@ -1,0 +1,34 @@
+{
+    "name": "DomainData/DHTML",
+    "description": "HTML tag generator view helper plugin for zend framework 2",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "html",
+        "tag helper",
+        "zend view",
+        "zend view helper"
+    ],
+    "homepage": "https://github.com/vodiahco/dhtml.git",
+    "authors": [
+        {
+            "name": "Victor Odiah",
+            "email": "vodiahco1@yahoo.com",
+            "homepage": "http://codewater.wordpress.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3.",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DData": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+    
+}
