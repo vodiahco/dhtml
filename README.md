@@ -1,10 +1,10 @@
 DHTML
 =====
 
-This class is a View helper plugin for generating html elements in Zend framework 2.
-It supports adding and manipulating html attributes and values.
-Just add the module to your project and you can create, style and reuse html elements in your view.
-Its highly flexible and simplify complex view pages.
+DHTML (Dynamic HTML) is a View Helper Plugin for generating HTML elements in Zend framework 2.
+It supports adding and manipulating HTML attributes and values.
+Just add the module to your project and you can dynamically create, style and reuse HTML elements in your view.
+It is highly flexible and capable of simplifying highly complex view pages.
 
 ## Requirements
 The requirements of this module is listed in composer.json.
