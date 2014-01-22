@@ -45,4 +45,18 @@ class Module
             ),
         );
     }
+    
+    function getViewHelperConfig()
+{
+  return array(
+    'shared' => array(
+      'DHTML' => false,
+    ),
+    'factories'=>array(
+          'DHTML'=>function($pm){
+      return new \DData\Helper\DHTML(); 
+          }
+      )
+  );
+}
 }

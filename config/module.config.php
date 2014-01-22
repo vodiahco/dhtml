@@ -17,6 +17,7 @@ return array(
         'aliases' => array(
             'translator' => 'MvcTranslator',
         ),
+        
     ),
     'translator' => array(
         'locale' => 'en_US',
@@ -28,10 +29,10 @@ return array(
             ),
         ),
     ),
-'view_helpers' => array(
-       'invokables'=>array(
-          'DHTML'=>'DData\Helper\DHTML', 
-       ),
-    ),
+//'view_helpers' => array(
+//       'invokables'=>array(
+//          'DHTML'=>'DData\Helper\DHTML', 
+//       ),
+//    ),
 
 );
