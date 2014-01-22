@@ -27,8 +27,9 @@ The requirements of this module is listed in composer.json.
 
 ## Usage in your view file.
 To generate H3 elements
-    $h3Element = $this->DHTML($tag="h3",$text="text content",$htmlOptions=array('id'=>'my-id','class'=>'my-class');
-    echo $h3Element;
+
+        $h3Element = $this->DHTML($tag="h3",$text="text content",$htmlOptions=array('id'=>'my-id','class'=>'my-class');
+        echo $h3Element;
 or
     
 You can also use the following methods:
