@@ -50,7 +50,9 @@ The class also supports method chaining:
 
 
 Class also supports nesting objects;
-    $h3Element->appendText($p->toString());
+
+        $h3Element->appendText($p->toString());
+
 It can be used to generate and build any html element;
 
 
