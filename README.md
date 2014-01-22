@@ -1,7 +1,7 @@
 DHTML
 =====
 
-This class is a View helper plugin for generating html tags in Zend framework 2.
+This class is a View helper plugin for generating html elements in Zend framework 2.
 It supports adding and manipulating html attributes and values.
 Just add the module to your project and you can create, style and reuse html elements in your view.
 Its highly flexible and simplify complex view pages.
