@@ -11,18 +11,18 @@ The requirements of this module is listed in composer.json.
 ## Installation
 1. require "DomainData/DHTML" : "dev-master", in your composer.json and run composer update
 2. Enable the DData module in config/application.config.php file
-    "require": {
-        "php": ">=5.3.3",
-        "zendframework/zendframework": "2.2.*",
-        "DomainData/DHTML" : "dev-master"
-        
-    },
-    "repositories": [
-        {
-        "type":"vcs",
-        "url": "https://github.com/vodiahco/dhtml.git"
-        }
-    ]
+        "require": {
+            "php": ">=5.3.3",
+            "zendframework/zendframework": "2.2.*",
+            "DomainData/DHTML" : "dev-master"
+
+        },
+        "repositories": [
+            {
+            "type":"vcs",
+            "url": "https://github.com/vodiahco/dhtml.git"
+            }
+        ]
 
 ## Usage in your view file.
 To generate H3 elements
@@ -31,19 +31,19 @@ To generate H3 elements
 or
     
 You can also use the following methods:
-    $h3Element = $this->DHTML();
-    $h3Element->setText("my text");
-    $h3Element->setCssClass("new class");
-    $h3Element->appendCssClass("add-class");
-    $h3Element->appendText('add-text');
-    echo $$h3Element;
+        $h3Element = $this->DHTML();
+        $h3Element->setText("my text");
+        $h3Element->setCssClass("new class");
+        $h3Element->appendCssClass("add-class");
+        $h3Element->appendText('add-text');
+        echo $$h3Element;
 
 The class also supports method chaining:
-    $p= $this->DHTML()
-    ->setTag("p")
-    ->setText("text here")
-    ->setClass("p-class");
-    echo $p;
+        $p= $this->DHTML()
+        ->setTag("p")
+        ->setText("text here")
+        ->setClass("p-class");
+        echo $p;
 
 
 Class also supports nesting objects;
