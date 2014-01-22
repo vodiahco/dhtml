@@ -1,7 +1,7 @@
 {
     "name": "DomainData/DHTML",
-    "description": "HTML tag generator view helper plugin for zend framework 2",
-    "license": "BSD-3-Clause",
+    "description": "HTML element generator view helper plugin for zend framework 2",
+    "license": "MIT License (MIT)",
     "type": "library",
     "keywords": [
         "zf2",
